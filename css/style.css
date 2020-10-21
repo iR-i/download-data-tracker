@@ -1,0 +1,94 @@
+
+html{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans';
+    background-color: rgb(22, 22, 22);
+
+}
+
+
+#bg{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.main_container{
+
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icon{
+
+    margin: 0 0 6vh 0;
+
+}
+
+.icon img{
+
+    width: 24vh;
+    height: 24vh;
+
+}
+
+.app_name{
+    /* border: 1px solid red; */
+    color: #FFF;
+    margin: 0 0 2vh 0;
+}
+
+.app_name h1{
+    margin: 0;
+    font-size: 4vh;
+    text-align: center;
+
+}
+
+
+.summary {
+    /* border: 1vh solid gold; */
+    margin: 0 0 8vh;
+}
+
+.summary *{
+    font-size: 1.75vh;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    color: #FFF;
+}
+
+
+.btn_download{
+    /* border: 1px solid gold; */
+    position: relative;
+}
+
+.btn_download a{
+
+    padding: 2vh;
+    border-radius: 100vh;
+    background-color: #73BF71;
+    font-size: 2.5vh;
+    font-weight: 100;
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+.features{
+
+    border: 1vh solid white;
+    margin: 8vh 0vh 0vh 0vh;
+
+}
