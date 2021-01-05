@@ -3,23 +3,22 @@
 
         <title>COVID-19 Data Tracker</title>
 
-        <script src="js/particles.min.js"></script>
 
-        <script>particlesJS.load('bg', 'js/config.json');</script>
 
         <link rel="stylesheet" href="css/style.css" />
         
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+   
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180977881-1"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', 'UA-180977881-1');
+            gtag('config', 'UA-180977881-1');
         </script>
 
         <link rel="icon" type="image/png" href="imgs/icon.png" />
@@ -29,32 +28,30 @@
 
     <body>
 
-        <div id="bg">
+        <div id="bg"></div>
 
+        <div class="main-container">
+            <div class="app-info">
+                <img src="./imgs/icon.png"/>
+                <h1>COVID-19 Data Tracker (BETA)</h1>
+                <h4>Total World Data • Total Philippines Data • Historical Data • Vaccine Tracker</h4>
+            </div>
+
+            <a href="https://github.com/iR-i/download-data-tracker/releases/download/0.0.1b/data-tracker-0.0.01b.apk">
+
+            <div class="download-btn">
+                <h1>DOWNLOAD APK - 5MB</h1>
+            </div>
+
+            </a>
         </div>
     
-        <div class="main_container">
-
-            <div class="icon">
-                <img src="imgs/icon.png" />
-            </div>
-
-            <div class="app_name">
-                <h1>COVID-19 Data Tracker (BETA)</h1>
-            </div>
-
-            <div class="summary">
-                <h6>Total World Data • Total Philippines Data • Historical Data • Vaccine Tracker</h6>
-                
-            </div>
-
-            <div class="btn_download">
-                <a role="button" href="https://github.com/kentaki-dev/download-data-tracker/releases/download/0.0.1b/data-tracker-0.0.01b.apk" download>DOWNLOAD APK - 5.89 MB</a>   
-            </div>
-
-        </div>
 
     </body>
+
+    <script src="./js/particles.min.js"></script>
+
+    <script>particlesJS.load('bg', './js/config.json');</script>
 
 </html>
 
